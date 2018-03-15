@@ -51,7 +51,7 @@ b = tf.Variable(tf.zeros([10]))
 > y 是我们预测的概率分布, y' 是实际的分布（我们输入的one-hot vector)。比较粗糙的理解是，交叉熵是用来衡量我们的预测用于描述真相的低效性。
 
 为了计算交叉熵，我们首先需要添加一个新的占位符用于输入正确值：  
-`y_ = tf.placeholder("float", [None,10])`
+`y_ = tf.placeholder("float", [None,10])`  
 用![](http://www.tensorfly.cn/tfdoc/images/mnist9.png)计算交叉熵:  
 > y和 y_是表示概率分布的10维向量
 
