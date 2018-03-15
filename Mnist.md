@@ -22,8 +22,9 @@ softmax可以看成是一个激励（activation）函数或者链接（link）�
 ![vector](http://www.tensorfly.cn/tfdoc/images/softmax-regression-vectorequation.png)  
 更进一步，可以写成更加紧凑的方式：  
 ![7](http://www.tensorfly.cn/tfdoc/images/mnist7.png)
-## 3.实现回归模型  
+## 3.实现回归模型  
 * TensorFlow把复杂的计算放在python之外完成，但是为了避免传输数据的开销，它做了进一步完善。Tensorflow不单独地运行单一的复杂计算，而是让我们可以先用图描述一系列可交互的计算操作，然后全部一起在Python之外运行。（这样类似的运行方式，可以在不少的机器学习库中看到。）  
+
 使用TensorFlow之前，首先导入它：  
 `import tensorflow as tf`  
 过操作符号变量来描述这些可交互的操作单元，可以用下面的方式创建一个：  
@@ -36,6 +37,7 @@ b = tf.Variable(tf.zeros([10]))
 ```
 赋予tf.Variable不同的初值来创建不同的Variable：在这里，我们都用全为零的张量来初始化W和b。因为我们要学习W和b的值，它们的初值可以随意设置。  
 > W的维度是[784，10]，因为我们想要用784维的图片向量乘以它以得到一个10维的证据值向量，每一位对应不同数字类。b的形状是[10]，所以我们可以直接把它加到输出上面。  
+
 现在，我们可以实现我们的模型啦。只需要一行代码！  
 `y = tf.nn.softmax(tf.matmul(x,W) + b)`  
 首先，我们用tf.matmul(X，W)表示x乘以W，对应之前等式里面的Wx，这里x是一个2维张量拥有多个输入。然后再加上b，把和输入到tf.nn.softmax函数里面。
