@@ -88,7 +88,9 @@ for i in range(1000):
 
 `correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))`  
 这行代码会给我们一组布尔值。为了确定正确预测项的比例，我们可以把布尔值转换成浮点数，然后取平均值。  
+  
 `accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))`  
 最后，我们计算所学习到的模型在测试数据集上面的正确率。  
+  
 `print sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels})`  
-至此，第一次mnist的尝试完成了，正确率比较低，因为我们仅仅使用了一个非常简单的模型。
+至此，第一次mnist的尝试完成了，正确率比较低(90.38%)，因为我们仅仅使用了一个非常简单的模型。
