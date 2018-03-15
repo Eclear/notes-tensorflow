@@ -15,7 +15,7 @@ softmax可以看成是一个激励（activation）函数或者链接（link）�
 ![t](http://www.tensorfly.cn/tfdoc/images/mnist5.png)  
 把输入值当成幂指数求值，再正则化这些结果值。这个幂运算表示，更大的证据对应更大的假设模型（hypothesis）里面的乘数权重值。反之，拥有更少的证据意味着在假设模型里面拥有更小的乘数系数。假设模型里的权值不可以是0值或者负值。Softmax然后会正则化这些权重值，使它们的总和等于1，以此构造一个有效的概率分布。  
 对于softmax回归模型可以用下面的图解释，对于输入的xs加权求和，再分别加上一个偏置量，最后再输入到softmax函数中：  
-![sr](http://www.tensorfly.cn/tfdoc/images/softmax-regression-scalargraph.png)  
+![s](http://www.tensorfly.cn/tfdoc/images/softmax-regression-scalargraph.png)  
 把它写成一个等式，可以得到：  
 ![q](http://www.tensorfly.cn/tfdoc/images/softmax-regression-scalarequation.png)  
 用向量表示这个计算过程：用矩阵乘法和向量相加。这有助于提高计算效率。（也是一种更有效的思考方式）  
