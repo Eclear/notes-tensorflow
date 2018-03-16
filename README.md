@@ -1,4 +1,5 @@
-﻿# tensorflow学习笔记
+
+# tensorflow学习笔记
 ## 学习资料：
 * [极客笔记](http://wiki.jikexueyuan.com/project/tensorflow-zh/get_started/introduction.html)
 * [中文文档](http://www.tensorfly.cn/tfdoc/tutorials/)
@@ -17,3 +18,6 @@
 ## 其它机器学习资料：
 * [如何正确学习人工智能方向的知识](https://www.zhihu.com/question/51039416)
 * [斯坦福大学公开课 ：机器学习课程](http://open.163.com/special/opencourse/machinelearning.html)
+
+## 其它工具
+* [xxnet](https://wiki.archlinux.org/index.php/XX-Net_(简体中文))
