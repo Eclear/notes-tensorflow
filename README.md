@@ -8,6 +8,7 @@
 [课程笔记](http://blog.csdn.net/wangyuweihx/article/details/60480960?locationNum=8&fps=1)  
 [课程练习](https://github.com/chiphuyen/stanford-tensorflow-tutorials)
 * [tensorflow如何入门](https://www.zhihu.com/question/49909565)
+* [tensorflow-搭建自己的神经网络](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/)
 
 ## 环境：
 * 当前使用：tensorflow(cpu)  
