@@ -2,7 +2,7 @@
 # tensorflow学习笔记
 ## 学习资料：
 * [极客笔记](http://wiki.jikexueyuan.com/project/tensorflow-zh/get_started/introduction.html)
-* [中文文档](http://www.tensorfly.cn/tfdoc/tutorials/)
+* [中文文档](http://www.tensorfly.cn/tfdoc/tutorials/overview.html)
 * [斯坦福CS 20SI](https://www.bilibili.com/video/av9156347/?from=search&seid=6905181275544516403)  
 [讲义和ppt](https://baijiahao.baidu.com/s?id=1594748198802445620&wfr=spider&for=pc)  [2](http://web.stanford.edu/class/cs20si/lectures/)  
 [课程笔记](http://blog.csdn.net/wangyuweihx/article/details/60480960?locationNum=8&fps=1)  
