@@ -19,6 +19,7 @@
 ## 其它机器学习资料：
 * [如何正确学习人工智能方向的知识](https://www.zhihu.com/question/51039416)
 * [斯坦福大学公开课 ：机器学习课程](http://open.163.com/special/opencourse/machinelearning.html)
+* [scikit](http://sklearn.apachecn.org/cn/0.19.0/documentation.html)
 
 ## 其它工具
 * [xxnet](https://wiki.archlinux.org/index.php/XX-Net_(简体中文))
