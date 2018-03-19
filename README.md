@@ -24,7 +24,7 @@
 * [scikit](http://sklearn.apachecn.org/cn/0.19.0/documentation.html)
 * [人工智能原理-北京大学](https://www.icourse163.org/course/PKU-1002188003)
 * [Python机器学习应用-北理](https://www.icourse163.org/course/BIT-1001872001)
-* [机器学习教程-吴恩达](https://www.icourse163.org/university/DA#/c)
+* [机器学习教程-吴恩达(深度学习三堂课)](https://www.icourse163.org/university/DA#/c) 
 
 ## 其它工具
 * [xxnet](https://wiki.archlinux.org/index.php/XX-Net_(简体中文))
