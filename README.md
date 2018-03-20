@@ -1,6 +1,7 @@
 
 # tensorflow学习笔记
 ## 学习资料：
+* [官方文档](https://www.tensorflow.org/get_started/)
 * [极客笔记](http://wiki.jikexueyuan.com/project/tensorflow-zh/get_started/introduction.html)
 * [中文文档](http://www.tensorfly.cn/tfdoc/tutorials/overview.html)
 * [斯坦福CS 20SI](https://www.bilibili.com/video/av9156347/?from=search&seid=6905181275544516403)  
