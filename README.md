@@ -11,7 +11,7 @@
 * [tensorflow如何入门](https://www.zhihu.com/question/49909565)
 * [tensorflow-搭建自己的神经网络](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/)
 * [人工智能实践：Tensorflow笔记](https://www.icourse163.org/course/PKU-1002536002)
-
+* [Tensor Layer](https://github.com/tensorlayer/tensorlayer)
 ## 环境：
 * 当前使用：tensorflow(cpu)  
 
