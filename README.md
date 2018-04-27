@@ -14,7 +14,7 @@
 * [Tensor Layer](https://github.com/tensorlayer/tensorlayer)
 ## 环境：
 * 当前使用：tensorflow(cpu)  
-
+* python 3.5.5, tensorflow1.6.0
   >小数据量计算速度快，处理更大计算量时可升级到gpu版
 * 开启/关闭环境：Anaconda activate/deactivate tensorflow
 
